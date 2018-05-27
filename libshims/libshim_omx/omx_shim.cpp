@@ -34,6 +34,9 @@ static const struct {
     const char *mRole;
 
 } kComponents[] = {
+    { "OMX.dolby.ac3.decoder", "ddpdec", "audio_decoder.ac3" },
+    { "OMX.dolby.eac3.decoder", "ddpdec", "audio_decoder.eac3" },
+    { "OMX.dolby.eac3_joc.decoder", "ddpdec", "audio_decoder.eac3_joc" },
     { "OMX.google.aac.decoder", "aacdec", "audio_decoder.aac" },
     { "OMX.google.aac.encoder", "aacenc", "audio_encoder.aac" },
     { "OMX.google.amrnb.decoder", "amrdec", "audio_decoder.amrnb" },

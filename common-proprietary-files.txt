@@ -34,6 +34,9 @@ vendor/lib/libgeofence.so|953c2720c98825cdfb2757839f5f86400c11a2d5
 vendor/lib/libizat_core.so|8d1b8f5c26cc9bcdacb402e253048211a6c07ba1
 vendor/lib/liblbs_core.so|3dea19e84a0d226ea3e5c92ec169f7e0fdbe5699
 
+# OMX (Samsung star - G960USQU1ARBG)
+lib/libstagefright_soft_ddpdec.so|db59ac4b6baee887c8c91cd8c9037ec3e13fb74c
+
 # Renderscript (Google bullhead - OPR4.170623.006)
 vendor/lib/libRSDriver_adreno.so|2044baf0169177e52aba6d7138f80559ecf2b58d
 vendor/lib/librs_adreno.so|cceaf847d749ac2f1a3af3a1ae6ba653d93e0ed9
