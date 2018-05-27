@@ -66,6 +66,9 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 # of the device.
 MAX_EGL_CACHE_SIZE := 2048*1024
 
+# OMX
+TARGET_LD_SHIM_LIBS := /system/lib/libmediaplayerservice.so|libshim_omx.so
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := device/samsung/msm8974-common/config.fs
 

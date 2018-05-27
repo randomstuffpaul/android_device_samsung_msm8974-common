@@ -144,7 +144,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libshim_omx
 
 # Power HAL
 PRODUCT_PACKAGES += \
